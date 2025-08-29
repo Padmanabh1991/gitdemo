@@ -12,6 +12,7 @@ public class ChromeBrowserDemo {
 		navigateURL();
 		closeApplication();
 		deleteTwitter();
+		deleteInstagram();
 		
 		
 	}

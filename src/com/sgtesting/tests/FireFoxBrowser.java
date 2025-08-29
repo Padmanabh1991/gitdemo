@@ -12,6 +12,7 @@ public class FireFoxBrowser {
 		navigateURL();
 		closeApplication();
 		display();
+		display1();
 		
 		
 		
@@ -33,17 +34,15 @@ public class FireFoxBrowser {
 	
 	private static void display()
 	{
-		System.out.println("Hello world");
-		System.out.println("This is java selenium");
-		System.out.println("Good Luck");
-		
-		System.out.println("PostJira1");
-		System.out.println("PostJira2");
-		System.out.println("PostJira3");
-		System.out.println("PostJira4");
-		System.out.println("PostJira5");
-		System.out.println("PostJira6");
-		System.out.println("PostJira7");
+		System.out.println("This is firefox Driver");
+	}
+	
+	private static void display1()
+	{
+		System.out.println("Hii Hello there");
+		System.out.println("This is web automation");
+		System.out.println("This is awesome");
+		System.out.println("Thank You");
 	}
 	
 	private static void navigateURL()

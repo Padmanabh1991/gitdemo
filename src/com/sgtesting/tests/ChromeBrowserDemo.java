@@ -11,7 +11,7 @@ public class ChromeBrowserDemo {
 		LaunchBrowser();
 		navigateURL();
 		closeApplication();
-		
+		display();
 		
 		
 	}
@@ -27,6 +27,13 @@ public class ChromeBrowserDemo {
 		{
 			e.printStackTrace();
 		}
+	}
+	
+	private static void display()
+	{
+		System.out.println("Hello world");
+		System.out.println("This is java selenium");
+		System.out.println("Good Luck");
 	}
 	
 	private static void navigateURL()

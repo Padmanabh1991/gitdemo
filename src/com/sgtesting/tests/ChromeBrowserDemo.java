@@ -13,6 +13,7 @@ public class ChromeBrowserDemo {
 		closeApplication();
 		deleteTwitter();
 		deleteInstagram();
+		deleteFaceBook();
 		
 		
 	}
@@ -38,6 +39,11 @@ public class ChromeBrowserDemo {
 	private static void deleteInstagram()
 	{
 		System.out.println("deleted Instagram");
+	}
+	
+	private static void deleteFaceBook()
+	{
+		System.out.println("deleted Facebook");
 	}
 	
 	private static void navigateURL()
